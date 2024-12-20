@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-container{
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+}
+
+
+.scroll-tracker{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(100, 223, 100);
+}
+.current-progress{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(228, 92, 114);
+}
+.data-container{
+    margin-top: 50px;
+}
